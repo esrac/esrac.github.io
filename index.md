@@ -3,6 +3,8 @@ layout: page
 excerpt: "About Me..."
 ---
 
+
+
 [//]: # (Remember that this is MarkDown and not HTML, the website is built with Jekyll)
 
 # Eindhovense Studenten Radio Amateur Club
