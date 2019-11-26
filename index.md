@@ -2,7 +2,7 @@
 layout: page
 excerpt: "About Me..."
 ---
-
+<!DOCTYPE html>
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="pe0v.css">
