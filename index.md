@@ -3,4 +3,4 @@ layout: page
 excerpt: "About Me..."
 ---
 
-Hello World
+Eindhovense Studenten Radio Amateur Club
