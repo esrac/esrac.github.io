@@ -1,9 +1,7 @@
 ---
-layout: page
-excerpt: "About Me..."
+layout: frontpage
+title: Eindhoven Student Radio Amateur Club
 ---
-
-
 
 [//]: # (Remember that this is MarkDown and not HTML, the website is built with Jekyll)
 
