@@ -129,6 +129,8 @@ html {
                         background-position: center;
                         background-size: cover;
 
+                        transform: translateZ(10px);
+
                         $item-margin: 8px;
 
                         left: $item-margin;
@@ -143,12 +145,12 @@ html {
                         font-weight: bold;
                         position: relative;
                         color: white;
-                        transform: translateZ(50px);
+                        transform: translateZ(70px);
                         z-index: 2;
                     }
 
                     .content-listing {
-                        transform: translateZ(40px);
+                        transform: translateZ(50px);
                         color: white;
                         list-style-type: none;
                         padding: 0;

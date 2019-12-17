@@ -7,7 +7,11 @@
 
 This website is built using Jekyll.
 
-First, install Ruby for your platform. Then, ```jekyll serve``` or ```jekyll s``` to build, serve and watch.
+To set up your development environment:
+
+1. Install Ruby for your platform. 
+2. ```gem install eventmachine --platform ruby```
+3. ```jekyll serve --watch --livereload --trace``` to build, serve and watch.
 
 Please commit to the ```development``` branch or create a feature branch, then create a PR and merge into master to make changes.
 
