@@ -10,7 +10,8 @@ This website is built using Jekyll.
 To set up your development environment:
 
 1. Install Ruby for your platform. 
-2. ```gem install``` to install required packages
+2. ```gem install bundler``` to install bundler
+3. ```bundler install``` to install required gems
 3. ```jekyll serve --watch --livereload --trace``` to build, serve and watch.
 
 Please commit to the ```development``` branch or create a feature branch, then create a PR and merge into master to make changes.
