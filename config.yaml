@@ -1,0 +1,78 @@
+baseURL: http://esrac.nl/
+languageCode: en-us
+title: ESRAC
+
+Params:
+    board:
+        -
+            name: Ezra Vermeulen
+            photo: ezra.jpg
+            role: Chairman
+            contact:
+                -
+                    icon: fas fa-envelope
+                    link: mailto:ezra@esrac.nl
+                -
+                    icon: fab fa-facebook
+                    link: https://facebook.com/ezra.vermeulen
+                -
+                    icon: fab fa-linkedin
+                    link: https://linkedin.com/in/ezra-vermeulen-92849035
+        -
+            name: Bart Driessens
+            photo: bart.jpg
+            role: Secretary
+            contact:
+                -
+                    icon: fas fa-envelope
+                    link: mailto:bart@esrac.nl
+                -
+                    icon: fab fa-instagram
+                    link: https://www.instagram.com/bart.driessens_/
+                -
+                    icon: fab fa-linkedin
+                    link: https://www.linkedin.com/in/bart-driessens-17b074174
+        -
+            name: Joris Dalderup
+            photo: joris.jpg
+            role: Treasurer
+            contact:
+                -
+                    icon: fas fa-envelope
+                    link: mailto:joris@esrac.nl
+                -
+                    icon: fab fa-facebook
+                    link: https://facebook.com/joris.dalderup
+                -
+                    icon: fab fa-linkedin
+                    link: https://linkedin.com/in/jorisdalderup
+        -
+            name: Arno van Kessel
+            photo: arno.jpeg
+            role: External affairs
+            contact:
+                -
+                    icon: fas fa-envelope
+                    link: mailto:arno@esrac.nl
+                -
+                    icon: fab fa-instagram
+                    link: https://www.instagram.com/arno.kessel/
+                -
+                    icon: fab fa-linkedin
+                    link: https://linkedin.com/in/arno-van-kessel-573420b0
+    Sponsors:
+        -
+            logo: salvemundi.png
+            url: https://salvemundi.nl
+        -
+            logo: fontys.png
+            url: https://fontys.nl
+        -
+            logo: maxwell.jpg
+            url: http://www.maxwellstichting.nl
+        # -
+        #     logo: veron.png
+        #     url: https://veron.nl
+        -
+            logo: proxy.png
+            url: https://facebook.com/FontysProxy/

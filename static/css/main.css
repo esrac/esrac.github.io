@@ -1,0 +1,80 @@
+* {
+    scroll-behavior: smooth;
+}
+
+/* ### HERO ### */
+
+#hero #join-button {
+    border-color: #008080;
+    color: #008080;
+    margin-top: 20px;
+}
+
+/* ### BOARD ### */
+
+#board {
+    padding-top: 70px;
+}
+
+#board .card-footer-item,
+#board .card-footer-item .icon {
+    color: #008080;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.board-role {
+    line-height: 1px;
+    padding-bottom: 15px;
+}
+
+/* ### SIGNUP ### */
+
+#signup > .title {
+    margin-bottom: 40px;
+}
+
+#signup span.required {
+    color: red;
+}
+
+#signup form button {
+    background-color: #008080;
+}
+
+label.small {
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+label.small input[type=checkbox]
+{
+  transform: scale(0.75);
+  padding: 10px;
+}
+
+/* ### SPONSORS ### */
+
+#sponsors img {
+    height: 75px;
+    filter: grayscale(100%);
+    display: inline-block;
+}
+
+/* ### FOOTER ### */
+
+#footer, #footer a {
+    background-color: #008080;
+    color: #ffffff;
+}
+#footer #logo {
+    width: 50px;
+    margin-bottom: 20px;
+}
+#footer p {
+    margin-top: 10px;
+}
+#footer .social {
+    margin-top: 20px;
+}

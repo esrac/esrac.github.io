@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/icons/esrac_white-blue_16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="images/icons/esrac_white-blue-32.png" sizes="32x32">  
+    <link rel="icon" type="image/png" href="images/icons/esrac_white-blue-96.png" sizes="96x96">
+    <link rel="stylesheet" href="css/vendor/bulma.min.css">
+    <link rel="stylesheet" href="css/vendor/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="js/main.js"></script>
+    <title>{{ .Title }}</title>
+</head>
+<body>
+    {{ partial "hero.html" . }}
+    {{ partial "about.html" . }}
+    {{ partial "board.html" . }}
+    {{ partial "signup.html" . }}
+    {{ partial "sponsors.html" . }}
+    {{ partial "footer.html" . }}
+</body>
+</html>

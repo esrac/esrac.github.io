@@ -1,0 +1,9 @@
+<section class="section" id="sponsors">
+    <div class="columns is-centered">
+        {{ range .Site.Params.Sponsors }}
+            {{ $img := resources.Get (.logo | printf "images/logos/sponsors/%v") }}
+            {{ $img := $img.Resize "x75" }}
+            <div class="column has-text-centered"><a href="{{ .url }}"><img class="image" src="{{ $img.RelPermalink  }}" alt=""></a></div>
+        {{ end }}
+    </div>
+</section>

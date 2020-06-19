@@ -1,0 +1,113 @@
+<section class="section" id="signup">
+	<p class="title is-size-1 has-text-centered">Signup</p>
+	<iframe style="display: none;" name="CaptureFrame" id="CaptureFrame"></iframe>
+	<form id="signupForm" method="POST" target="CaptureFrame" action="https://formspree.io/bestuur@esrac.nl" onsubmit="payment(); return true;">
+		<div class="columns">
+
+			<div class="column is-4 is-offset-2">
+
+				<div class="field">
+					<label class="label">Name<span class="required">*</span> <label class="small"><input name="Public Name" type="checkbox"> Public</label></label>
+					<div class="control has-icons-left has-icons-right">
+						<span class="icon is-small is-left">
+							<i class="fas fa-user"></i>
+						</span>
+						<input name="Name" required class="input" type="text" placeholder="John doe" title="Used to address and identify you.">
+						<span class="icon is-small is-right">
+							<i class="fas fa-info-circle"></i>
+						</span>
+					</div>
+				</div>
+
+				<div class="field">
+					<label class="label">Data of birth <label class="small"><input name="Public DOB" type="checkbox"> Public</label></label>
+					<div class="control has-icons-left has-icons-right">
+						<span class="icon is-small is-left">
+							<i class="fas fa-calendar"></i>
+						</span>
+						<input name="Date of Birth" class="input" type="text" placeholder="dd-mm-yyyy" title="Used to promote relevant events.">
+						<span class="icon is-small is-right">
+							<i class="fas fa-info-circle"></i>
+						</span>
+					</div>
+				</div>
+
+				<div class="field">
+					<label class="label">Mobile number <label class="small"><input name="Public Number" type="checkbox"> Public</label></label>
+					<div class="control has-icons-left has-icons-right">
+						<span class="icon is-small is-left">
+							<i class="fab fa-whatsapp"></i>
+						</span>
+						<input name="Mobile Number" class="input" type="tel" placeholder="0612345678" title="Used to contact you and inform you about upcomming events.">
+						<span class="icon is-small is-right">
+							<i class="fas fa-info-circle"></i>
+						</span>
+					</div>
+				</div>
+
+				<div class="field">
+					<label class="label">Study <label class="small"><input name="Public Study" type="checkbox"> Public</label></label>
+					<div class="control has-icons-left has-icons-right">
+						<span class="icon is-small is-left">
+							<i class="fas fa-graduation-cap"></i>
+						</span>
+						<input name="Study" class="input" type="text" placeholder="Electrical engineering" title="Used to diversify events.">
+						<span class="icon is-small is-right">
+							<i class="fas fa-info-circle"></i>
+						</span>
+					</div>
+				</div>
+
+			</div>
+			<div class="column is-4">
+
+
+				<div class="field">
+					<label class="label">School email<span class="required">*</span></label>
+					<div class="control has-icons-left has-icons-right">
+						<span class="icon is-small is-left">
+							<i class="fas fa-envelope"></i>
+						</span>
+						<input required name="School email" class="input" type="email" placeholder="j.doe@university.edu" title="Only used to verify enrollment.">
+						<span class="icon is-small is-right">
+							<i class="fas fa-info-circle"></i>
+						</span>
+					</div>
+				</div>
+
+				<div class="field">
+					<label class="label">Contact email <label class="small"><input name="Public email" type="checkbox"> Public</label><label class="small"><input name="Newsletter" type="checkbox"> Newsletter</label></label>
+					<div class="control has-icons-left has-icons-right">
+						<span class="icon is-small is-left">
+							<i class="fas fa-envelope"></i>
+						</span>
+						<input name="Contact email" class="input" type="email" placeholder="j.doe@example.com" title="Used to contact you and inform you about upcomming events.">
+						<span class="icon is-small is-right">
+							<i class="fas fa-info-circle"></i>
+						</span>
+					</div>
+				</div>
+
+
+				<label class="label">Legal and privacy</label>
+
+				<div class="field">
+					<div class="control">
+						<label class="checkbox">
+							<input required name="Privacy" type="checkbox">
+							I have read and agree to the
+							<a href="https://docs.google.com/document/d/1uWVCspTg767CWoiHt4ENVL3CuhqZ8ACbMGgm_qncr0s/edit?usp=sharing" target="_blank">privacy policy.</a>
+							<span class="required">*</span>
+						</label>
+					</div>
+				</div>
+
+				<div class="field is-grouped">
+					<div class="control">
+						<button type="submit" class="button is-link">Sign up</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+</section>

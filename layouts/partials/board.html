@@ -1,0 +1,36 @@
+<section id="board" class="section" style=" padding: 30px auto;">
+    <div class="container">
+        <div class="columns">
+
+          {{ range .Site.Params.board }}
+            <div class="column is-one-quarter-desktop is-half-tablet">
+
+                <div class="card">
+                    <div class="card-image">
+                      <figure class="image is-3by4">
+                        <img src="images/people/{{ .photo }}" alt="Placeholder image">
+                      </figure>
+                    </div>
+                    <div class="card-content">                 
+                      <div class="content">
+                        <p class="board-name is-size-4">{{ .name }}</p>
+                        <p class="board-role is-size-5">{{ .role }}</p>
+                      </div>
+                    </div>
+                    <footer class="card-footer">
+                      {{ range .contact }}
+                      <p class="card-footer-item" onclick="location.href={{ .link }}">
+                          <span class="icon">
+                            <i class="{{ .icon }}"></i>
+                          </span>
+                        </p>
+                      {{ end }}
+                    </footer>
+                  </div>
+
+            </div>
+
+            {{ end }}
+        </div>
+    </div>
+  </section>
